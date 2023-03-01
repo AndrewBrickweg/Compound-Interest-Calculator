@@ -15,6 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
+        <div className="header">Compound Interest Calculator</div>
         <div className="container">
           <Investment />
           <Contribution />
