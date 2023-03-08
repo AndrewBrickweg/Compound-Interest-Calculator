@@ -15,8 +15,15 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <div className="header">Compound Interest Calculator</div>
-        <div className="container">
+        <h1 className="text-4xl flex justify-center m-5 font-extrabold">
+          Compound Interest Calculator
+        </h1>
+        <h2 className="flex text-2xl font-semibold justify-center mb-5">
+          Use the compound interest calculator to discover the power of compund
+          interest and see how far your money can take you.
+        </h2>
+
+        <div className="flex-col">
           <Investment />
           <Contribution />
           <Interest />

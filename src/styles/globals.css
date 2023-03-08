@@ -1,51 +1,7 @@
-.header {
-  display: flex;
-  justify-content: center;
-  font-size: xx-large;
-  padding: 20px;
-}
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  flex-direction: column;
-  flex: 1;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-.containerItem {
-  width: 100%;
-}
-
-.steps {
-  display: flex;
-  align-items: center;
-  height: 40px;
-  font-weight: 600;
-  color: white;
-  background-color: rgb(8, 101, 130);
-}
-
-.content {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  color: white;
-  background-color: rgb(9, 73, 129);
-}
-
-.description {
-  display: flex;
-  flex-direction: column;
-  width: 80%;
-  padding: 5px;
-}
-
-.amounts {
-  display: flex;
-  flex-direction: column;
-  width: auto;
-  justify-content: end;
-  width: 100px;
-  height: 20px;
+body {
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
 }

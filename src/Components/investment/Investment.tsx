@@ -1,3 +1,4 @@
+import { Interface } from "node:readline/promises";
 import React, { useState } from "react";
 
 const Investment = () => {
@@ -11,7 +12,7 @@ const Investment = () => {
           <div>Initial Investment</div>
           <p>Amount of money you are starting with</p>
         </div>
-        <input type="number" className="amounts" />
+        <input type="text" className="amounts" />
       </div>
     </div>
   );
